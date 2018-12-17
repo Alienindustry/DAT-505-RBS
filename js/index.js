@@ -28,7 +28,7 @@ function init() {
       //The color of the material is assigned a random color
       var boxMaterial = new THREE.MeshLambertMaterial({color: Math.random() * 0xFFFFFF});
       var box = new THREE.Mesh(boxGeometry, boxMaterial);
-
+//new code at line 31
       //box.castShadow = true;
 
       box.position.x = x;

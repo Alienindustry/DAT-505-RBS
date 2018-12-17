@@ -34,7 +34,7 @@ function init() {
       box.position.x = x;
       box.position.z = y;
       box.scale.y = 0.5;
-
+// changed box scale RBS line 37
       //box.rotation.x = Math.random() * 2 * Math.PI;;
       //box.rotation.y = Math.random() * 2 * Math.PI;;
       //box.rotation.z = Math.random() * 2 * Math.PI;;

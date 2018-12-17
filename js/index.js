@@ -20,7 +20,7 @@ function init() {
   renderer.setClearColor(0x17293a);
   renderer.setSize(W, H);
   //renderer.shadowMapEnabled = true;
-
+//new line at 23
   //Create a two dimensional grid of objects, and position them accordingly
   for (var x = -45; x <= 45; x += 5) { // Start from -45 and sequentially add one every 5 pixels
     for (var y = -30; y <= 30; y += 5) {

@@ -15,7 +15,7 @@ function init() {
   spotLight.position.set(0, 1000, 0);
   scene.add(spotLight);
   //spotLight.castShadow = true;
-
+//new line at 18
   renderer = new THREE.WebGLRenderer({antialias:true});
   renderer.setClearColor(0x17293a);
   renderer.setSize(W, H);

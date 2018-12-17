@@ -6,7 +6,7 @@ function init() {
 
   var W = window.innerWidth,
       H = window.innerHeight;
-
+//Richard is here
   camera = new THREE.PerspectiveCamera(45, W / H, .1, 1000);
   camera.position.set(0, 55, 85);
   camera.lookAt(scene.position);

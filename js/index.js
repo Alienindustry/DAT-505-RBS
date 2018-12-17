@@ -3,24 +3,24 @@ var cubes = []; //cubes[] needs to be globally declared so that we can access th
 
 function init() {
   scene = new THREE.Scene();
-//new code lne 6
+
   var W = window.innerWidth,
       H = window.innerHeight;
-//working on later
+
   camera = new THREE.PerspectiveCamera(45, W / H, .1, 1000);
   camera.position.set(0, 55, 85);
   camera.lookAt(scene.position);
-//working on camera
+
   var spotLight = new THREE.SpotLight(0xFFFFFF);
   spotLight.position.set(0, 1000, 0);
   scene.add(spotLight);
   //spotLight.castShadow = true;
-//new line at 18
+
   renderer = new THREE.WebGLRenderer({antialias:true});
   renderer.setClearColor(0x17293a);
   renderer.setSize(W, H);
   //renderer.shadowMapEnabled = true;
-//new line at 23
+
   //Create a two dimensional grid of objects, and position them accordingly
   for (var x = -45; x <= 45; x += 5) { // Start from -45 and sequentially add one every 5 pixels
     for (var y = -30; y <= 30; y += 5) {
@@ -28,7 +28,7 @@ function init() {
       //The color of the material is assigned a random color
       var boxMaterial = new THREE.MeshLambertMaterial({color: Math.random() * 0xFFFFFF});
       var box = new THREE.Mesh(boxGeometry, boxMaterial);
-//new code at line 31
+
       //box.castShadow = true;
 
       box.position.x = x;

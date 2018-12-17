@@ -3,7 +3,7 @@ var cubes = []; //cubes[] needs to be globally declared so that we can access th
 
 function init() {
   scene = new THREE.Scene();
-
+//new code lne 6
   var W = window.innerWidth,
       H = window.innerHeight;
 //working on later

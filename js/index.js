@@ -10,7 +10,7 @@ function init() {
   camera = new THREE.PerspectiveCamera(45, W / H, .1, 1000);
   camera.position.set(0, 55, 85);
   camera.lookAt(scene.position);
-
+//working on camera
   var spotLight = new THREE.SpotLight(0xFFFFFF);
   spotLight.position.set(0, 1000, 0);
   scene.add(spotLight);

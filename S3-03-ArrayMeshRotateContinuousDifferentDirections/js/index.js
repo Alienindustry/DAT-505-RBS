@@ -33,7 +33,7 @@ function init() {
 
       box.position.x = x;
       box.position.z = y;
-      box.scale.y = 0.5;
+      box.scale.y = 1.5;//lengthened the size of bricks
 
       //box.rotation.x = Math.random() * 2 * Math.PI;;
       //box.rotation.y = Math.random() * 2 * Math.PI;;

@@ -7,7 +7,7 @@ function init() {
   var W = window.innerWidth,
       H = window.innerHeight;
 
-  camera = new THREE.PerspectiveCamera(50, W / H, .1, 1000);//this changes the size of blocks
+  camera = new THREE.PerspectiveCamera(10, W / H, .1, 1000);//this changes the size of blocks to large blocks RBS
   camera.position.set(0, 55, 85);
   camera.lookAt(scene.position);
 

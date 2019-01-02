@@ -39,7 +39,7 @@ function init() {
         case 2:
           var boxMaterial = new THREE.MeshLambertMaterial({color: 0x0000FF});
           break;
-        break;
+        break;//loaded the above code from from 24-44 to change to 3 colours but had no effect RBS
 
       }
   }

@@ -23,7 +23,7 @@ function init() {
 
   //Create a two dimensional grid of objects, and position them accordingly
   for (var x = -45; x <= 45; x += 3) { // Start from -45 and sequentially add one every 5 pixels
-    for (var y = -30; y <= 30; y += 5) {
+    for (var y = -30; y <= 30; y += 5) {//changing the y to a smaller no creates oblongs rather than blocks RBS
       var boxGeometry = new THREE.BoxGeometry(3, 3, 3);  // was 3 6 3
       //The color of the material is assigned a random color
       var boxMaterial = new THREE.MeshLambertMaterial({color: Math.random() * 0xFFFFFF});

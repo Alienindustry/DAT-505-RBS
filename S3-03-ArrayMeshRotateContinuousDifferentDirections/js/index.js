@@ -7,8 +7,8 @@ function init() {
   var W = window.innerWidth,
       H = window.innerHeight;
 
-  camera = new THREE.PerspectiveCamera(10, W / H, .1, 1000);//this changes the size of blocks to large blocks RBS
-  camera.position.set(0, 55, 85);
+  camera = new THREE.PerspectiveCamera(40, W / H, .1, 1000);//this changes the size of blocks to large blocks RBS
+  camera.position.set(0, 110, 0);// changed camera angle from 0,55,85 so the wall is vertical RBS
   camera.lookAt(scene.position);
 
   var spotLight = new THREE.SpotLight(0xFFFFFF);

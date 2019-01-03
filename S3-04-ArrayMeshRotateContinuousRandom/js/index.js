@@ -12,7 +12,7 @@ function init() {
       H = window.innerHeight;
 
   camera = new THREE.PerspectiveCamera(45, W / H, .1, 00); //changing to 00 creates a flutter effect works at line 14 RBS
-  camera.position.set(0, 80, 0);
+  camera.position.set(0, 100, 0);//size changer 100 from 50 RBS
   camera.lookAt(scene.position);
 
   var spotLight = new THREE.SpotLight(0xFFFFFF);

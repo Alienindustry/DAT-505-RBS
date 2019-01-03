@@ -21,7 +21,7 @@ function init() {
   //spotLight.castShadow = true;
 
   renderer = new THREE.WebGLRenderer({antialias:true});
-  renderer.setClearColor(0x10000a);
+  renderer.setClearColor(0x10000a);//Changes colour of Background RBS
   renderer.setSize(W, H);
   //renderer.shadowMapEnabled = true;
 

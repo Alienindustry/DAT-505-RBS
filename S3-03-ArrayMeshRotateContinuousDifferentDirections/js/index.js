@@ -13,14 +13,7 @@ function init() {
   // create an AudioListener and add it to the camera
   var listener = new THREE.AudioListener();
   camera.add( listener );
-  var camera, scene, renderer, spotLight, controls;// these new lines of code at 16-23 did not work obviously something missing to generate audio 
-
-  var loader = new THREE.JSONLoader();
-  var landscape, planetBig, planetMedium, planetSmall;
-
-  var analyser, dataArray;
-  var audioData = [];
-  var stream = "https://cdn.rawgit.com/ellenprobst/web-audio-api-with-Threejs/57582104/lib/TheWarOnDrugs.m4a";// tried another audio code but preview screen went black at line23
+  
   // create a global audio source
   var sound = new THREE.Audio( listener );
 

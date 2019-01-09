@@ -13,7 +13,14 @@ function init() {
   // create an AudioListener and add it to the camera
   var listener = new THREE.AudioListener();
   camera.add( listener );
+  var camera, scene, renderer, spotLight, controls;
 
+  var loader = new THREE.JSONLoader();
+  var landscape, planetBig, planetMedium, planetSmall;
+
+  var analyser, dataArray;
+  var audioData = [];
+  var stream = "https://cdn.rawgit.com/ellenprobst/web-audio-api-with-Threejs/57582104/lib/TheWarOnDrugs.m4a";
   // create a global audio source
   var sound = new THREE.Audio( listener );
 

@@ -23,7 +23,7 @@ function init() {
   	sound.setBuffer( buffer );
   	sound.setLoop( true );
   	sound.setVolume( 0.5 );
-  	sound.play();
+  	sound.play();// tried to load this audio file to the code but with no effect line 13 to 27 RBS
   });
   var spotLight = new THREE.SpotLight(0xFFFFFF);
   spotLight.position.set(0, 1000, 0);

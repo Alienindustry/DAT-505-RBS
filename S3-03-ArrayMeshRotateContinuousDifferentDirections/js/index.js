@@ -20,7 +20,7 @@ function init() {
 
   var analyser, dataArray;
   var audioData = [];
-  var stream = "https://cdn.rawgit.com/ellenprobst/web-audio-api-with-Threejs/57582104/lib/TheWarOnDrugs.m4a";
+  var stream = "https://cdn.rawgit.com/ellenprobst/web-audio-api-with-Threejs/57582104/lib/TheWarOnDrugs.m4a";// tried another audio code but preview screen went black at line23
   // create a global audio source
   var sound = new THREE.Audio( listener );
 
